@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    background-color: rgb(255, 252, 221);
+    transition: 0.4s ease-in-out;
+}
+
+#day{
+    height: 100%;
+    width: 100%;
+}
+
+#day>h3{
+    font-weight: 450;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+#day>img{
+    margin-left: 60%;
+    margin-top: 8%;
+}
+
+#night{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#night>h3{
+    font-weight: 450;
+    font-size: 30px;
+    margin-top: 20%;
+    margin-left: 5%;
+    color: #fff;
+}
+
+.dark{
+    background-color: #282633;
+}
